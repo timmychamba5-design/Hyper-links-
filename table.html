@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+	  <title>Course table structure</title>
+	  
+	  <style>
+	     table {
+	            border-collapse: collapse;
+                margin: auto;
+                width: 80%;				
+        }
+		 th {
+	         border: 1px solid rgb(0,0,0);
+             padding: 10px;		
+             background-color: rgb(67,125,9);
+             color: #FFFFFF;			 
+		}
+		 td {
+             border: 1px solid rgb(0,0,0);
+             padding: 10px			 
+		}
+	    caption {
+            font-weight: bold;
+            color: rgb(0,128,0);
+			font-size: 30px;
+        } 
+	     tr:nth-child(even) {
+            background-color: rgb(98,145,52);
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(170,219,123);
+        }
+	  
+	  </style>
+</head>
+<body>
+       <table>
+	    <caption>Course Structure for MSc. Business</caption>
+ <thead>
+  <tr>
+	 <th>Winter Term</th>
+	 <th>Spring Term</th>
+	 <th>Summer Term</th>
+	</tr>
+ </thead>
+       <tr>
+            <td>Principles of Marketing</td>
+            <td>Human Resource Management</td>
+            <td>Economics of Labour</td>
+        </tr>
+		
+        <tr>
+            <td>Introduction to Business and Management</td>
+            <td>Investment Management</td>
+            <td>Information Systems Management</td>
+        </tr>
+		
+        <tr>
+            <td>Introduction to Accounting</td>
+            <td rowspan="2">Strategy</td>
+            <td>Business Law</td>
+        </tr>
+		
+        <tr>
+            <td>Introduction to Economics</td>
+			<td rowspan="3">Major Project</td>
+        </tr>
+		
+        <tr>
+            <td>Introduction to Strategy</td>
+            <td>Corporate Finance</td>
+        </tr>
+		
+        <tr>
+            <td colspan="2">Professional Development</td>	  
+        </tr>
+
+</table>
+
+</body>
+</html>
